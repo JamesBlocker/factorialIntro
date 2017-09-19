@@ -6,65 +6,22 @@
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title>Personality</title>
+    <title>Factorial</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Anxiety Quiz</h2>
+        <h2>Factorial</h2>
       </div>
-      <form id="anxiety-quiz">
 
-        <div class="form-group">
-          <p>Question 1: Which of these do you experience in social situations? (Check all that apply)</p>
-          <input type="checkbox" name="social-question" value="1">Extreme sweating<br>
-          <input type="checkbox" name="social-question" value="2">Anxiety<br>
-          <input type="checkbox" name="social-question" value="3">Confidence<br>
-          <input type="checkbox" name="social-question" value="4">Laughing hysterically<br>
-        </div>
+      <form id="factorial">
+        <label for="userInput">Enter your number:</label>
+        <input id="userInput" type="number" name="" value="">
 
-        <div class="form-group">
-          <p>Question 2: Which of these do you experience when working under a deadline? (Check all that apply)</p>
-          <input type="checkbox" name="deadline-question" value="1">Frustration<br>
-          <input type="checkbox" name="deadline-question" value="2">Procrastinating<br>
-          <input type="checkbox" name="deadline-question" value="3">I enjoy working under strict deadlines<br>
-          <input type="checkbox" name="deadline-question" value="4">Doesn't effect my workflow<br>
-        </div>
-
-        <div class="form-group">
-          <p>Question 3: Which of these do you experience when you go to bed? (Check all that apply)</p>
-          <input type="checkbox" name="bed-question" value="1">Sleeplessness<br>
-          <input type="checkbox" name="bed-question" value="2">I dream in code<br>
-          <input type="checkbox" name="bed-question" value="3">Tossing and turning<br>
-          <input type="checkbox" name="bed-question" value="4">Sleep like a baby<br>
-        </div>
-
-        <div class="form-group">
-          <p>Question 4: Which of these do you experience when working in a pair? (Check all that apply)</p>
-          <input type="checkbox" name="pair-question" value="1">Glee<br>
-          <input type="checkbox" name="pair-question" value="2">Perpetual anger<br>
-          <input type="checkbox" name="pair-question" value="3">Intrepidation<br>
-          <input type="checkbox" name="pair-question" value="4">A great time!<br>
-        </div>
-
-       <button type="submit">Submit Survey</button>
+        <button type="submit">Submit</button>
       </form>
 
-      <span id="questionOneResponse">
-        <p><b>In social situations you:</b></p>
-      </span>
-
-      <span id="questionTwoResponse">
-        <p><b>When working under deadlines you:</b></p>
-      </span>
-
-      <span id="questionThreeResponse">
-        <p><b>When going to bed, you:</b></p>
-      </span>
-
-      <span id="questionFourResponse">
-        <p><b>When working in pairs, you::</b></p>
-      </span>
+      <span id="results">Your result is:</span>
 
     </div>
   </body>
