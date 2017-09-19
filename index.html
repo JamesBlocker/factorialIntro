@@ -11,50 +11,59 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Personality Quiz</h2>
+        <h2>Anxiety Quiz</h2>
       </div>
-      <form id="personality-quiz">
+      <form id="anxiety-quiz">
 
         <div class="form-group">
-          <p>QUESTION 1</p>
-          <input type="checkbox" name="soda-number" value="1">One.<br>
-          <input type="checkbox" name="soda-number" value="2">Two.<br>
-          <input type="checkbox" name="soda-number" value="3">Three.<br>
-          <input type="checkbox" name="soda-number" value="4">Four.<br>
+          <p>Question 1: Which of these do you experience in social situations? (Check all that apply)</p>
+          <input type="checkbox" name="social-question" value="1">Extreme sweating<br>
+          <input type="checkbox" name="social-question" value="2">Anxiety<br>
+          <input type="checkbox" name="social-question" value="3">Confidence<br>
+          <input type="checkbox" name="social-question" value="4">Laughing hysterically<br>
         </div>
 
         <div class="form-group">
-          <p>QUESTION 2</p>
-          <input type="checkbox" name="soda-number" value="1">One.<br>
-          <input type="checkbox" name="soda-number" value="2">Two.<br>
-          <input type="checkbox" name="soda-number" value="3">Three.<br>
-          <input type="checkbox" name="soda-number" value="4">Four.<br>
+          <p>Question 2: Which of these do you experience when working under a deadline? (Check all that apply)</p>
+          <input type="checkbox" name="deadline-question" value="1">Frustration<br>
+          <input type="checkbox" name="deadline-question" value="2">Procrastinating<br>
+          <input type="checkbox" name="deadline-question" value="3">I enjoy working under strict deadlines<br>
+          <input type="checkbox" name="deadline-question" value="4">Doesn't effect my workflow<br>
         </div>
 
         <div class="form-group">
-          <p>QUESTION 3</p>
-          <input type="checkbox" name="soda-number" value="1">One.<br>
-          <input type="checkbox" name="soda-number" value="2">Two.<br>
-          <input type="checkbox" name="soda-number" value="3">Three.<br>
-          <input type="checkbox" name="soda-number" value="4">Four.<br>
+          <p>Question 3: Which of these do you experience when you go to bed? (Check all that apply)</p>
+          <input type="checkbox" name="bed-question" value="1">Sleeplessness<br>
+          <input type="checkbox" name="bed-question" value="2">I dream in code<br>
+          <input type="checkbox" name="bed-question" value="3">Tossing and turning<br>
+          <input type="checkbox" name="bed-question" value="4">Sleep like a baby<br>
         </div>
 
         <div class="form-group">
-          <p>QUESTION 4</p>
-          <input type="checkbox" name="soda-number" value="1">One.<br>
-          <input type="checkbox" name="soda-number" value="2">Two.<br>
-          <input type="checkbox" name="soda-number" value="3">Three.<br>
-          <input type="checkbox" name="soda-number" value="4">Four.<br>
+          <p>Question 4: Which of these do you experience when working in a pair? (Check all that apply)</p>
+          <input type="checkbox" name="pair-question" value="1">Glee<br>
+          <input type="checkbox" name="pair-question" value="2">Perpetual anger<br>
+          <input type="checkbox" name="pair-question" value="3">Intrepidation<br>
+          <input type="checkbox" name="pair-question" value="4">A great time!<br>
         </div>
 
        <button type="submit">Submit Survey</button>
       </form>
-      <span id="work-responses">
-        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+
+      <span id="questionOneResponse">
+        <p><b>In social situations you:</b></p>
       </span>
 
-      <span id="soda-responses">
-        <p><b>You had this many sodas:</b></p>
+      <span id="questionTwoResponse">
+        <p><b>When working under deadlines you:</b></p>
+      </span>
+
+      <span id="questionThreeResponse">
+        <p><b>When going to bed, you:</b></p>
+      </span>
+
+      <span id="questionFourResponse">
+        <p><b>When working in pairs, you::</b></p>
       </span>
 
     </div>
